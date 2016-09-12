@@ -27,11 +27,11 @@ There is no better teacher than experience. Build and experiment constantly. Ask
     * <a href="http://www.lynda.com/HTML-training-tutorials/224-0.html" title="lynda.com html related titles">HTML related titles</a>
     * <a href="http://www.lynda.com/Web-Design-training-tutorials/1376-0.html" title="lynda.com web design related titles">Web Design related titles</a>
 * **HTML specifications**
-      * Although their format can be a bit hard to read initially, once you&rsquo;re familiar with them there is no better resource for learning HTML and staying current with it than reading the actual W3C specifications.
-      * <a href="http://www.w3.org/TR/html401" title="html 4 specification">HTML 4.0</a>
-      * <a href="http://www.w3.org/TR/xhtml1" title="xhtml 1 specification">XHTML 1.0</a>
-      * <a href="http://developers.whatwg.org" title="html 5, WHATWG edition">WHATWG HTML5</a>
-      * <a href="http://www.w3.org/TR/html5">W3C HTML5</a>
+    * Although their format can be a bit hard to read initially, once you&rsquo;re familiar with them there is no better resource for learning HTML and staying current with it than reading the actual W3C specifications.
+    * <a href="http://www.w3.org/TR/html401" title="html 4 specification">HTML 4.0</a>
+    * <a href="http://www.w3.org/TR/xhtml1" title="xhtml 1 specification">XHTML 1.0</a>
+    * <a href="http://developers.whatwg.org" title="html 5, WHATWG edition">WHATWG HTML5</a>
+    * <a href="http://www.w3.org/TR/html5">W3C HTML5</a>
   * <a href="http://validator.w3.org" title="W3C markup validator">**W3C Markup Validation Service**</a>
       * Great for admining code and making sure you&rsquo;re writing valid HTML syntax.
   * <a href="https://developer.mozilla.org/en-US" title="Mozilla developer network">**Mozilla Developer Network**</a>
