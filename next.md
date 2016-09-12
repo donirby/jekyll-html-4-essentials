@@ -10,14 +10,12 @@ On this page I&rsquo;ll give you some basic advice on how to approach learning w
 &ldquo;Web design&rdquo; is a pretty open-ended term. Often people who are new to web design feel overwhelmed at everything there is to learn. That&rsquo;s understandable, but just remember that it&rsquo;s like any other discipline; with proper dedication and focus you&rsquo;ll progress quickly. Here&rsquo;s my favorite advice to new web designers on learning web design:
 
 **Learn how the web works.**
-
 I&rsquo;m always amazed at how many web designers focus on learning &ldquo;just what they need to know&rdquo; and ignore how the web actually works. Without understanding how web servers, protocols, browsers, and other related web technology works, you&rsquo;ll never really understand the context behind why you do the things you do, and what makes one practice better than another.
 
 **Determine an area of focus, and start there.**
-
 There are a lot of areas of web design that you could specialize in, so I&rsquo;d recommend learning as much about them as you can, to determine which areas interest you. Then, spend as much time learning about your specific area of focus as possible. Once you achieve a level of proficiency, begin to branch out into other areas as well. 
 
-#### Never stop learning.
+**Never stop learning.**
 The web is constantly evolving. Even if you become the absolute best there is in a specific field, chances are new techniques and approaches will come along within the year that will make your current skill set less desirable. Understand that being a good web designer means embracing the changing nature of the web.
 
 **Break things!**
