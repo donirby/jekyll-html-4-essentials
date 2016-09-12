@@ -6,7 +6,6 @@ title: Syntax
 Because HTML is often the people&rsquo;s first experience with coding, there can be a fair amount of apprehension about learning it. Thankfully, HTML syntax is relatively simple and easy to learn. Most people can learn the basics of HTML and begin coding it within the same day.
 
 ### A markup language
-
 HTML is a markup language. That means that content on the page is &ldquo;marked up&rdquo; by tags which identify the content inside of them. A paragraph, for example, can be identified by placing the &ldquo;<p>&rdquo; opening tag prior to the paragraphs content and the &ldquo;</p>&rdquo; closing tag at the end of a paragraph. The full paragraph would look like this:
 
 ~~~~~~~
@@ -26,20 +25,25 @@ The core of all HTML documents revolves around three basic tags. First, an html 
     </body>
 </html>
 ~~~~~~~
+
 ### DOCTYPES
 If you&rsquo;ve looked at HTML pages before, you&rsquo;ve probably noticed a long, somewhat intimidating tag just before the opening HTML tag. This is a doctype declaration and it&rsquo;s a very important but often misunderstood component of HTML pages. Essentially, it tells the user agent parsing your page which version of HTML (or XHTML) to expect, so that it knows which syntax rules to use when rendering your page. The doctype you use should be based on the version of HTML you&rsquo;re using to author the page. While that all sounds good in theory, in reality most of the time a doctype is simply triggering &ldquo;standards-mode&rdquo; rather than &ldquo;quirks mode&rdquo; (based on older browsers non-standard way of rendering pages). For that reason alone, all HTML documents should be preceded by a doctype declaration. For more information on doctypes, and the history behind them, check out Mark Pilgrim&rsquo;s excellent section on doctypes from his *<a href="http://diveintohtml5.info/semantics.html#the-doctype" title="Dive into HTML5">Dive Into HTML5</a>* book. Here are some of the more common HTML doctypes:
+
 #### HTML 4.0 transitional
 ~~~~~~~ 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
 ~~~~~~~
+
 #### XHTML 1.0 Transitional
 ~~~~~~~ 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
 ~~~~~~~
+
 #### HTML5
 ~~~~~~~ 
 <!DOCTYPE HTML>
 ~~~~~~~
+
 ### Element attributes
 Some elements can be enhanced through the use of attributes. Attributes allow you to provide more information or additional functionality to the content. Attributes are added to the opening tag of an element and consist of two parts, the **name** and **value**. Although the syntax varies based on the version of HTML you&rsquo;re using, it&rsquo;s standard practice to put values within quotation marks.
 ~~~~~~~ 
@@ -50,6 +54,7 @@ Some HTML elements represent content that is replaced by an outside resource suc
 ~~~~~~~ 
 <img src="photo.jpg"; alt="my awesome photo">;
 ~~~~~~~
+
 ### Code structure
 HTML documents create structure by nesting elements inside of one another. You might group a section of page content together by wrapping them within a <div> or <section> element, for example. When nesting one tag within another one, you must first close any child elements prior to closing any parent elements. 
 This syntax, for example, would be *incorrect*:
