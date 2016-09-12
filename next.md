@@ -17,8 +17,7 @@ I&rsquo;m always amazed at how many web designers focus on learning &ldquo;just 
 
 There are a lot of areas of web design that you could specialize in, so I&rsquo;d recommend learning as much about them as you can, to determine which areas interest you. Then, spend as much time learning about your specific area of focus as possible. Once you achieve a level of proficiency, begin to branch out into other areas as well. 
 
-**Never stop learning**
-
+#### Never stop learning.
 The web is constantly evolving. Even if you become the absolute best there is in a specific field, chances are new techniques and approaches will come along within the year that will make your current skill set less desirable. Understand that being a good web designer means embracing the changing nature of the web.
 
 **Break things!**
