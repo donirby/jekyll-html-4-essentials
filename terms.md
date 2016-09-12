@@ -70,6 +70,7 @@ URL
 W3C 
 : The W3C, or <b>World Wide Web Consortium</b>, is the standards body responsible for authoring the HTML specification. 
 
+<table>
 <table border="1" cellspacing="0" cellpadding="0" summary="A quick reference of named character entities, including an example of the character, a description, and the entity code.">
 <caption>
 <h3 id="named">Common Named Character Entities 
