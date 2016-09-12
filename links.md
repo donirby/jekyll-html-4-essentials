@@ -9,7 +9,9 @@ Perhaps the most important aspect of HTML is the ability to link from one docume
 Creating links is relatively straightforward, and the syntax provides a lot of flexibility in where and how links are applied. To create a link, you&rsquo;ll use the anchor element &rang;a&lang; to wrap the content you wish to convert to a link.&nbsp; Attributes inside the anchor tag tell the browser where the page is linking to, or point to an external resource that the browser should download.
 Take the following link example:
 
-<pre><a href=&rdquo;syntax.htm&rdquo; title=&rdquo;learn more about syntax&rdquo;>HTML syntax</a></pre>
+~~~~~~~
+<a href=&rdquo;syntax.htm&rdquo; title=&rdquo;learn more about syntax&rdquo;>HTML syntax</a>
+~~~~~~~
 
 Here the text &ldquo;HTML syntax&rdquo; would now appear as a clickable link. The `href` attribute tells the browser how to *resolve* the link; that is where the user should be directed when the link is clicked. The optional `title` attribute provides a description of the link and is helpful in making the link more accessible.
 
@@ -23,7 +25,9 @@ These links contain the entire URL necessary to resolve a link, including the pr
 
 #### Document relative links 
 These links are commonly used to navigate internally within a site. For example, if you were on the home page of your site, and wanted to navigate to the contact page, you simply provide the path from the home page to the contact page for the `href` value. Doing this requires you to understand the directory structure of your site, and when you need to navigate into, or out of, folders. Take the following example:
+
 <pre><a href=&rdquo;contact.htm&rdquo; title=&rdquo;our contact page&rdquo;>Contact us</a></pre>
+
 This link assumes that the contact page and the current page are in the same directory. If the contact page were located in a directory below the current page, the link would look like this:
 
 <pre><a href=&rdquo;resources/contact.htm&rdquo; title=&rdquo;our contact page&rdquo;>Contact us</a></pre>
