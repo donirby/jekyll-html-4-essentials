@@ -17,7 +17,6 @@ Although most elements require an opening and a closing tag, the closing tag is 
 
 ### Basic document structure
 The core of all HTML documents revolves around three basic tags. First, an html tag (<html>) is required to identify the document as an HTML file. Directly inside the html tag, you&rsquo;ll find the head element (<head>). The head of a document is where you&rsquo;ll find the document&rsquo;s metadata, the document title, and links to external resources such as style sheets and scripts. A good way to think about the document&rsquo;s head is that it doesn&rsquo;t contain any of the page&rsquo;s *visual* content rather it contains information about the document and the resources that help make the page work. Directly after the document&rsquo;s head, you&rsquo;ll find its body (<body>). The body is where you&rsquo;ll find all of the page&rsquo;s actual content. Headings, paragraphs, images, lists, tables, and other content will be located here. At its most basic, an HTML file would look like this:
-
 ~~~~~~~
 <html>     
     <head>
@@ -50,8 +49,10 @@ Some elements can be enhanced through the use of attributes. Attributes allow yo
 ~~~~~~~ 
 <h1 class="headline";>Article's main headline</h1> 
 ~~~~~~~
+
 ### Replaced elements
 Some HTML elements represent content that is replaced by an outside resource such as an image, form control, or a video file. These elements are referred to as **replaced elements** and usually have a predetermined width or height. In some cases the elements will have attributes that tell the browser where to find an external resource like an image or video.
+
 ~~~~~~~ 
 <img src="photo.jpg"; alt="my awesome photo">;
 ~~~~~~~
