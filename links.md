@@ -10,7 +10,7 @@ Creating links is relatively straightforward, and the syntax provides a lot of f
 Take the following link example:
 
 ~~~~~~~
-<a href=&rdquo;syntax.htm&rdquo; title=&rdquo;learn more about syntax&rdquo;>HTML syntax</a>
+<a href="syntax.htm" title="learn more about syntax">HTML syntax</a>
 ~~~~~~~
 
 Here the text &ldquo;HTML syntax&rdquo; would now appear as a clickable link. The `href` attribute tells the browser how to *resolve* the link; that is where the user should be directed when the link is clicked. The optional `title` attribute provides a description of the link and is helpful in making the link more accessible.
