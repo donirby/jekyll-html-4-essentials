@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Reference
+title: Glossary
 ---
 
 On this page you&rsquo;ll find a quick reference to common HTML terms and a table of frequently used <a href="#named">named character entities</a>.
+
 ### HTML Terms
 
 Attribute
