@@ -17,6 +17,7 @@ Although most elements require an opening and a closing tag, the closing tag is 
 
 ### Basic document structure
 The core of all HTML documents revolves around three basic tags. First, an html tag (<html>) is required to identify the document as an HTML file. Directly inside the html tag, you&rsquo;ll find the head element (<head>). The head of a document is where you&rsquo;ll find the document&rsquo;s metadata, the document title, and links to external resources such as style sheets and scripts. A good way to think about the document&rsquo;s head is that it doesn&rsquo;t contain any of the page&rsquo;s *visual* content rather it contains information about the document and the resources that help make the page work. Directly after the document&rsquo;s head, you&rsquo;ll find its body (<body>). The body is where you&rsquo;ll find all of the page&rsquo;s actual content. Headings, paragraphs, images, lists, tables, and other content will be located here. At its most basic, an HTML file would look like this:
+
 ~~~~~~~
 <html>     
     <head>
@@ -46,6 +47,7 @@ If you&rsquo;ve looked at HTML pages before, you&rsquo;ve probably noticed a lon
 
 ### Element attributes
 Some elements can be enhanced through the use of attributes. Attributes allow you to provide more information or additional functionality to the content. Attributes are added to the opening tag of an element and consist of two parts, the **name** and **value**. Although the syntax varies based on the version of HTML you&rsquo;re using, it&rsquo;s standard practice to put values within quotation marks.
+
 ~~~~~~~ 
 <h1 class="headline";>Article's main headline</h1> 
 ~~~~~~~
@@ -78,7 +80,6 @@ HTML5, on the other hand, expands the concept of content types to seven differen
 Often it is helpful to leave notes to yourself or other developers within your code. Perhaps you want to remind yourself what a certain script does, or remind a co-worker how to properly structure specific content. To do this, you&rsquo;ll use comments. Comments should appear on their own line, and typically appear directly before or after the code they refer to. Comments begin with a left-angle bracket, an exclamation point, and two hyphens and end with two hyphens followed by a right-angle bracket.
 
 #### Comment syntax:
-
 ~~~~~~~ 
 <!-- This is a comment --> 
 ~~~~~~~
@@ -87,4 +88,3 @@ Often it is helpful to leave notes to yourself or other developers within your c
 Certain characters are reserved in HTML, meaning that you shouldn&rsquo;t use them outside of their specific purpose. The angle brackets, for example, are reserved for tags, and using them anywhere outside of a tag could cause parsing errors in browsers. However, you can still use these reserved characters and other special characters or symbols by using what is known as a **named character entity**. These special codes tell the user agent to replace the entity code with a specific character. These entities begin with an ampersand (&amp;) followed by the entity name and end with a semicolon (;). To display an ampersand, for example, you would type **&amp;amp;** in place of the actual ampersand. You can find named character entity lists within the HTML specifications, although the format for them can be a bit hard to read. You can also find a useful list of character entities on the <a href="reference.htm#named">HTML Reference</a> page, and a more comprehensive list on <a href="http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references" title="Character entity reference">Wikipedia</a>.</div>
 
 June, 2016
-
