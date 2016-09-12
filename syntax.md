@@ -17,6 +17,7 @@ Although most elements require an opening and a closing tag, the closing tag is 
 
 ### Basic document structure
 The core of all HTML documents revolves around three basic tags. First, an html tag (<html>) is required to identify the document as an HTML file. Directly inside the html tag, you&rsquo;ll find the head element (<head>). The head of a document is where you&rsquo;ll find the document&rsquo;s metadata, the document title, and links to external resources such as style sheets and scripts. A good way to think about the document&rsquo;s head is that it doesn&rsquo;t contain any of the page&rsquo;s *visual* content rather it contains information about the document and the resources that help make the page work. Directly after the document&rsquo;s head, you&rsquo;ll find its body (<body>). The body is where you&rsquo;ll find all of the page&rsquo;s actual content. Headings, paragraphs, images, lists, tables, and other content will be located here. At its most basic, an HTML file would look like this:
+
 ~~~~~~~
 <html>     
     <head>
@@ -58,21 +59,29 @@ Some HTML elements represent content that is replaced by an outside resource suc
 ### Code structure
 HTML documents create structure by nesting elements inside of one another. You might group a section of page content together by wrapping them within a <div> or <section> element, for example. When nesting one tag within another one, you must first close any child elements prior to closing any parent elements. 
 This syntax, for example, would be *incorrect*:
+
 ~~~~~~~
 <pre class="wrong"><code><p>You must close all nested tags <strong>first!</p></strong> 
 ~~~~~~~
+
 Rather, the correct syntax would be:
+
 ~~~~~~~
 <pre class="correct"><code><p>You must close all nested tags <strong>first!</strong></p> 
 ~~~~~~~
+
 HTML also has specific rules about which elements can be nested within other elements. A paragraph (<p>) for example, can&rsquo;t be nested inside a heading (<h1>). &nbsp;For the most part, these rules are based around the type of content the tag represents. HTML 4 has two basic types of content: **block** and **inline**. Block-level elements typically occupy their own line within a document, usually stacking one on top of each other in the order they appear in your code. Inline-level elements can appear within the flow of block level elements. Elements like strong, bold, emphasis, italic, and span are always found inside block-level elements. 
 HTML5, on the other hand, expands the concept of content types to seven different categories of content, with some elements belonging to multiple categories. This replaces the concept of block-level and inline-level elements and adds some additional nesting syntax rules. For the most part, the rules around nesting elements make sense and are fairly easy to pick up. You should be prepared, however, for it to take some time before you fully understand all of the rules surrounding nesting elements. One way to making sure to your code is structured properly is to validate your code through a service like the <a href="http://validator.w3.org" title="W3C markup validator">W3C&rsquo;s Markup Validation service</a>.
+
 ### Commenting code
 Often it is helpful to leave notes to yourself or other developers within your code. Perhaps you want to remind yourself what a certain script does, or remind a co-worker how to properly structure specific content. To do this, you&rsquo;ll use comments. Comments should appear on their own line, and typically appear directly before or after the code they refer to. Comments begin with a left-angle bracket, an exclamation point, and two hyphens and end with two hyphens followed by a right-angle bracket.
+
 #### Comment syntax:
+
 ~~~~~~~ 
 <!-- This is a comment --> 
 ~~~~~~~
+
 ### Using special characters
 Certain characters are reserved in HTML, meaning that you shouldn&rsquo;t use them outside of their specific purpose. The angle brackets, for example, are reserved for tags, and using them anywhere outside of a tag could cause parsing errors in browsers. However, you can still use these reserved characters and other special characters or symbols by using what is known as a **named character entity**. These special codes tell the user agent to replace the entity code with a specific character. These entities begin with an ampersand (&amp;) followed by the entity name and end with a semicolon (;). To display an ampersand, for example, you would type **&amp;amp;** in place of the actual ampersand. You can find named character entity lists within the HTML specifications, although the format for them can be a bit hard to read. You can also find a useful list of character entities on the <a href="reference.htm#named">HTML Reference</a> page, and a more comprehensive list on <a href="http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references" title="Character entity reference">Wikipedia</a>.</div>
 
